@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vertex | Desktop Management Software Tutorial</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" href="favicon.ico"/>
+</head>
+<body>
+  <!-- Loading Animation -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <nav class="navbar">
+    <div class="nav-logo">Vertex</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#install">Install</a></li>
+      <li><a href="#video">Tutorial</a></li>
+      <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Support</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">&#9776;</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Vertex</h1>
+      <p class="tagline">Master your workflow. Fix issues. Operate with confidence.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary"><s>Download</s></a>
+        <a href="#video" class="btn btn-accent">Watch Tutorial</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <h2>Key Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <span class="feature-icon">🖥️</span>
+        <h3>Easy Operation</h3>
+        <p>Intuitive UI for all users. Learn to operate Vertex in minutes.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">❄️</span>
+        <h3>Freeze Fixes</h3>
+        <p>Step-by-step solutions for freezing and performance issues.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🧹</span>
+        <h3>Clear Cache</h3>
+        <p>Quickly clear cache and resolve glitches with one click.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🔑</span>
+        <h3>Password Recovery</h3>
+        <p>Recover lost passwords securely and easily.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🛒</span>
+        <h3>Order Management</h3>
+        <p>Place, process, and track orders efficiently.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">⚡</span>
+        <h3>Fast Support</h3>
+        <p>Get instant help via WhatsApp or email support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Installation Guide Section -->
+  <section class="install" id="install">
+    <h2>Installation Guide</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">1. Download Vertex</button>
+        <div class="accordion-body">
+          <p>Click the <b>Download</b> button above to get the latest version.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header">2. Install on Windows</button>
+        <div class="accordion-body">
+          <pre><code>1. Double-click the downloaded installer.
+2. Follow the on-screen instructions.
+3. Launch Vertex from your desktop.</code></pre>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header">3. First-Time Setup</button>
+        <div class="accordion-body">
+          <pre><code>1. Enter your admin credentials (default admin users are created securely).
+2. Set up your workspace.
+3. Start managing orders and users from the dashboard.</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Tutorial Section -->
+  <section class="video" id="video">
+    <h2>Watch the Tutorial</h2>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vertex Tutorial" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Screenshots Section -->
+  <section class="screenshots" id="screenshots">
+    <h2>Screenshots</h2>
+    <div class="gallery">
+      <img src="images/screen1.png" alt="Dashboard" class="gallery-img"/>
+      <img src="images/screen2.png" alt="Order Management" class="gallery-img"/>
+      <img src="images/screen3.png" alt="Settings" class="gallery-img"/>
+      <img src="images/screen4.png" alt="Support" class="gallery-img"/>
+    </div>
+    <!-- Modal for enlarged image -->
+    <div id="modal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImg" alt="Screenshot"/>
+      <div id="caption"></div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">How do I fix freezing problems?</button>
+        <div class="faq-answer">
+          <p>Go to <b>home &gt; the bottom bar</b> and click <b>Clear orders</b>. Restart Vertex. If the issue persists, contact support.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I recover my password?</button>
+        <div class="faq-answer">
+          <p>On the login screen, click <b>Forgot Password</b> and follow the instructions. You’ll be asked. your security question. Or Admin can reset passwords for users. All user data is stored securely; password hashes are never exposed.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I place an order?</button>
+        <div class="faq-answer">
+          <p>Click <b>Create Order</b> on the dashboard, fill in the details, and submit. Track your order in the Orders section.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I process orders?</button>
+        <div class="faq-answer">
+          <p>Go to <b>Orders</b>, select an order, and use the <b>Process</b> button to advance its status. Use <b>Advance</b> to move to the next workflow stage, <b>Reverse</b> to go back.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I clear cache?</button>
+        <div class="faq-answer">
+          <p>Use the <b>Clear orders</b> button in the home panel. Temporary files and cached data are deleted, resolving glitches and improving performance.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I contact support?</button>
+        <div class="faq-answer">
+          <p>Use the contact form below or click the WhatsApp button for instant help. Email support is available at <b>petersgodspower4@gmail.com</b><b>or call 0559365299</b>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Support Section -->
+  <section class="contact" id="contact">
+    <h2>Contact & Support</h2>
+    <form class="contact-form" autocomplete="off">
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="How can we help you?" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <a href="https://wa.me/233559365299" class="btn btn-whatsapp" target="_blank">WhatsApp Support</a>
+      <p>Email: <a href="mailto:petersgodspower4@gmail.com">petersgodspower4@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Back to Top">&#8679;</button>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <span>&copy; 2026 Vertex Software powered by <a href="https://wa.me/233559365299" target="_blank">MSa Group of company</a>. All rights reserved.</span>
+      <span>v2.0.0</span>
+      <div class="footer-social">
+        <a href="#" title="Twitter"><img src="images/twitter.svg" alt="Twitter"/></a>
+        <a href="#" title="Facebook"><img src="images/facebook.svg" alt="Facebook"/></a>
+        <a href="#" title="YouTube"><img src="images/youtube.svg" alt="YouTube"/></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
