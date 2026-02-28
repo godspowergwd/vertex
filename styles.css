@@ -58,12 +58,17 @@ body {
   justify-content: space-between;
   padding: 0 2rem;
   height: 64px;
+  background-color: #ffffff;
+  
 }
 .nav-logo {
   font-size: 1.7rem;
   font-weight: bold;
-  color: var(--primary);
+  color: #fff;
   letter-spacing: 2px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 10px;
 }
 .nav-links {
   display: flex;
@@ -107,6 +112,10 @@ body {
   justify-content: center;
   text-align: center;
   padding: 5rem 1rem 3rem 1rem;
+  background-image: url(images/banner7.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 .hero-content h1 {
   font-size: 3rem;
